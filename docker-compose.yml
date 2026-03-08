@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: qrapp_postgres
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: qrapp
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - qrapp_network
+
+  redis:
+    image: redis:7-alpine
+    container_name: qrapp_redis
+    ports:
+      - "6379:6379"
+    networks:
+      - qrapp_network
+
+volumes:
+  postgres_data:
+
+
+networks:
+  qrapp_network:
+    driver: bridge
