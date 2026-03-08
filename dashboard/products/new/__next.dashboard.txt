@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[40293,["/qr_app/_next/static/chunks/0f0352041cbc5600.js"],"default"]
+3:I[8165,["/qr_app/_next/static/chunks/4a570052309a0fc0.js","/qr_app/_next/static/chunks/b29c28073fa95f28.js"],"default"]
+4:I[73400,["/qr_app/_next/static/chunks/4a570052309a0fc0.js","/qr_app/_next/static/chunks/b29c28073fa95f28.js"],"default"]
+0:{"buildId":"-xwjyI1ManYfOmSijH6Ak","rsc":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/qr_app/_next/static/chunks/0f0352041cbc5600.js","async":true}]],["$","div",null,{"className":"flex h-screen bg-slate-950 text-slate-50 overflow-hidden selection:bg-indigo-500/30","children":[["$","div",null,{"className":"absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] opacity-50"}],["$","$L2",null,{}],["$","main",null,{"className":"flex-1 overflow-y-auto w-full relative","children":["$","div",null,{"className":"p-8 max-w-7xl mx-auto","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]}]}]]}]]}],"loading":null,"isPartial":false}
